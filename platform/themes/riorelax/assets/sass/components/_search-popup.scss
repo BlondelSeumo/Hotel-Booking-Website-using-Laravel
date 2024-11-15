@@ -1,0 +1,80 @@
+/* 8. search-popup */
+.search-popup {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    box-shadow: 0 0 0;
+    margin-top: 200px;
+    text-transform: uppercase;
+}
+
+.search-bg {
+    background: #f5f5f5;
+    opacity: 1;
+}
+
+.close2 {
+    color: var(--primary-color);
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.search-bg a i {
+    color: var(--primary-color);
+    font-size: 18px;
+}
+
+.search-outer {
+    border-bottom: 1px solid #101010;
+    float: left;
+    margin-top: 100px;
+    padding-bottom: 16px;
+    width: 100%;
+}
+
+.search-outer input {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #000;
+    font-size: 14px;
+    width: 100%;
+}
+
+.case-study-content {
+    padding: 30px;
+    background: #fff5f4 0% 0% no-repeat padding-box;
+    box-shadow: 0px 16px 32px #fff5f4;
+}
+
+.case-study-content span {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.case-study-content02 {
+    padding: 30px 30px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 16px 32px #1010100a;
+}
+
+.case-study-content02 span {
+    margin-bottom: 10px;
+    display: inline-block;
+    color: var(--primary-color);
+}
+
+.case-study-content02 .ss-btn {
+    display: none;
+    transition: all 0.5s ease 0s;
+}
+
+.case-study-box:hover .case-study-content02 .ss-btn {
+    display: inline-block;
+}
+
+.case-study-box .case-study-content02 {
+    transition: all 0.5s ease 0s;
+}
+
+.case-study-box:hover .case-study-content02 {
+    transform: translate(0, -62px);
+}

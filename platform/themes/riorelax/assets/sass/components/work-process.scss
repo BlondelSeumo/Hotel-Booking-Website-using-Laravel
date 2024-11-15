@@ -1,0 +1,131 @@
+/* 10. work-process */
+.wp-bg {
+    background-position: center;
+    background-size: cover;
+}
+
+.w-title h2::before {
+    background-color: var(--primary-color);
+}
+
+.wp-list {
+    background: #232c8e;
+    box-shadow: 0px 10px 30px 0px rgba(29, 38, 129, 0.48);
+    padding: 80px 50px;
+    padding-bottom: 75px;
+}
+
+.wp-list ul li {
+    display: flex;
+    align-items: flex-start;
+    overflow: hidden;
+    margin-bottom: 45px;
+}
+
+.wp-list ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.wp-icon {
+    margin-inline-end: 25px;
+}
+
+.wp-content h5 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.wp-content p {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.wp-tag {
+    position: absolute;
+    inset-inline-start: 70px;
+    top: 90px;
+    animation: alltuchtopdown 3s infinite;
+    -webkit-animation: alltuchtopdown 3s infinite;
+    animation-delay: 0s;
+    -webkit-animation-delay: 1s;
+}
+
+@keyframes alltuchtopdown {
+    0% {
+        -webkit-transform: rotateX(0deg) translateY(0px);
+        -moz-transform: rotateX(0deg) translateY(0px);
+        -ms-transform: rotateX(0deg) translateY(0px);
+        -o-transform: rotateX(0deg) translateY(0px);
+        transform: rotateX(0deg) translateY(0px);
+    }
+    50% {
+        -webkit-transform: rotateX(0deg) translateY(-10px);
+        -moz-transform: rotateX(0deg) translateY(-10px);
+        -ms-transform: rotateX(0deg) translateY(-10px);
+        -o-transform: rotateX(0deg) translateY(-10px);
+        transform: rotateX(0deg) translateY(-10px);
+    }
+    100% {
+        -webkit-transform: rotateX(0deg) translateY(0px);
+        -moz-transform: rotateX(0deg) translateY(0px);
+        -ms-transform: rotateX(0deg) translateY(0px);
+        -o-transform: rotateX(0deg) translateY(0px);
+        transform: rotateX(0deg) translateY(0px);
+    }
+}
+
+@-webkit-keyframes alltuchtopdown {
+    0% {
+        -webkit-transform: rotateX(0deg) translateY(0px);
+        -moz-transform: rotateX(0deg) translateY(0px);
+        -ms-transform: rotateX(0deg) translateY(0px);
+        -o-transform: rotateX(0deg) translateY(0px);
+        transform: rotateX(0deg) translateY(0px);
+    }
+    50% {
+        -webkit-transform: rotateX(0deg) translateY(-10px);
+        -moz-transform: rotateX(0deg) translateY(-10px);
+        -ms-transform: rotateX(0deg) translateY(-10px);
+        -o-transform: rotateX(0deg) translateY(-10px);
+        transform: rotateX(0deg) translateY(-10px);
+    }
+    100% {
+        -webkit-transform: rotateX(0deg) translateY(0px);
+        -moz-transform: rotateX(0deg) translateY(0px);
+        -ms-transform: rotateX(0deg) translateY(0px);
+        -o-transform: rotateX(0deg) translateY(0px);
+        transform: rotateX(0deg) translateY(0px);
+    }
+}
+
+.wp-img {
+    margin-inline-end: -60px;
+    margin-top: -60px;
+    margin-bottom: -15px;
+}
+
+.wp-thumb img {
+    width: 100%;
+}
+
+.inner-wp-icon {
+    float: left;
+    display: block;
+    margin-inline-end: 30px;
+}
+
+.inner-wp-c {
+    overflow: hidden;
+    display: block;
+}
+
+.inner-wp-c h5 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.inner-wp-c p {
+    margin-bottom: 0;
+}

@@ -1,0 +1,137 @@
+/* 12. project */
+.project h2 {
+}
+
+.single-project .project-info {
+    position: absolute;
+    bottom: 40px;
+    inset-inline-start: 40px;
+    color: #fff;
+}
+
+.single-project .project-info h4 {
+    margin-bottom: 0;
+}
+
+.single-project .project-info h4 a {
+    color: #fff;
+    font-size: 24px;
+}
+
+.single-project .project-info p {
+    color: var(--primary-color);
+    margin-bottom: 0;
+}
+
+.single-project .project-info a {
+    color: var(--primary-color);
+}
+
+.single-project .project-info a img {
+    display: inline;
+    margin-inline-start: 5px;
+}
+
+.portfolio-active {
+    padding-inline-start: 40px;
+}
+
+.portfolio-area2 h2 {
+    color: #fff;
+}
+
+.portfolio-active .single-project {
+    position: relative;
+}
+
+.portfolio-active .slick-arrow {
+    position: absolute;
+    top: -124px;
+    inset-inline-end: 19%;
+    border: none;
+    background: none;
+    padding: 0;
+    color: #fff;
+    z-index: 9;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    color: var(--primary-color);
+    box-shadow: 1px 1.732px 30px 0px rgba(255, 94, 21, 0.25);
+    font-size: 30px;
+}
+
+.portfolio-active .slick-arrow:hover {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.portfolio-active .slick-next {
+    inset-inline-end: 15%;
+    inset-inline-start: inherit;
+}
+
+.portfolio-box {
+    width: 100%;
+    height: 390px;
+    box-shadow: 2.5px 4.33px 15px 0px rgba(0, 0, 0, 0.07);
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+
+.portfolio-box img {
+    height: 390px !important;
+    max-width: 600px !important;
+    margin-inline-start: -150px;
+}
+
+.portfolio-box .caption {
+    position: absolute;
+    bottom: -150px;
+    padding: 30px;
+    width: 100%;
+    background: #fff;
+    transition:
+        opacity 0.4s ease,
+        visibility 0.2s ease;
+    opacity: 0;
+}
+
+.portfolio-box:hover .caption {
+    bottom: 0;
+    opacity: 1;
+}
+
+.portfolio-box .caption .caption-text {
+    position: relative;
+}
+
+.portfolio-box .caption .arrow-icon {
+    position: absolute;
+    inset-inline-end: 40px;
+    top: 25%;
+    font-size: 28px;
+    color: var(--primary-color);
+}
+
+.caption-text h5 {
+    margin-bottom: 5px !important;
+}
+
+.caption-text p {
+    margin-bottom: 0 !important;
+}
+
+.project-two h2 {
+    color: #fff;
+}
+
+.project-two .grid-item,
+.project-two .col-xl-6 {
+    padding: 0;
+    margin: 0;
+}

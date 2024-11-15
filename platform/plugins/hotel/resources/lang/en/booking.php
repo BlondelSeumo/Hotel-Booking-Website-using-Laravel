@@ -1,0 +1,46 @@
+<?php
+
+return [
+    'name' => 'Bookings',
+    'create' => 'New booking',
+    'statuses' => [
+        'pending' => 'Pending',
+        'processing' => 'Processing',
+        'completed' => 'Completed',
+        'cancelled' => 'Cancelled',
+    ],
+    'amount' => 'Amount',
+    'customer' => 'Customer',
+    'room' => 'Room',
+    'booking_information' => 'Booking Information',
+    'time' => 'Time',
+    'full_name' => 'Full Name',
+    'email' => 'Email',
+    'phone' => 'Phone',
+    'address' => 'Address',
+    'arrival_time' => 'Arrival Time',
+    'start_date' => 'Start Date',
+    'end_date' => 'End Date',
+    'settings' => [
+        'email' => [
+            'title' => 'Booking',
+            'description' => 'Booking email configuration',
+            'templates' => [
+                'notice_title' => 'Send notice to administrator',
+                'notice_description' => 'Email template to send notice to administrator when system get new booking',
+                'booking_success_title' => 'Send email to guest',
+                'booking_success_description' => 'Email template to send email to guest to confirm booking',
+                'booking_status_changed_title' => 'Send email to customer when booking status changed',
+                'booking_status_changed_description' => 'Email template to send email to customer when booking status changed',
+            ],
+        ],
+    ],
+    'new_booking_notice' => 'You have <span class="bold">:count</span> new booking(s)',
+    'view_all' => 'View all',
+    'payment_method' => 'Payment method',
+    'payment_status_label' => 'Payment status',
+    'booking_period' => 'Booking period',
+    'reports' => 'Booking Reports',
+    'calendar' => 'Booking Calendar',
+    'calendar_item_title' => ':room (:number_of_rooms room(s), :number_of_guests adults(s), :number_of_children children(s))',
+];

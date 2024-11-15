@@ -1,0 +1,437 @@
+/* 14. testimonial */
+.testimonial-area .container {
+    z-index: 1;
+    position: relative;
+}
+
+.testimonial-area .test-bg {
+    position: absolute;
+    top: 0;
+    inset-inline-start: -27px;
+}
+
+.testimonial-active2 {
+    width: 95%;
+    margin: auto;
+}
+
+.testimonial-area h2 {
+    margin-bottom: 15px !important;
+}
+
+.testimonial-area p {
+    margin-top: 0;
+}
+
+.ta-bg {
+    height: 475px;
+    width: 475px;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+}
+
+.testimonial-author .ta {
+    position: absolute;
+    inset-inline-start: 50%;
+    top: 50%;
+    overflow: hidden;
+    transition: all 1200ms ease;
+    -moz-transition: all 1200ms ease;
+    -webkit-transition: all 1200ms ease;
+    -ms-transition: all 1200ms ease;
+    -o-transition: all 1200ms ease;
+}
+
+.author-one.now-in-view {
+    top: -25px;
+    inset-inline-start: 110px;
+}
+
+.author-two.now-in-view {
+    top: 21%;
+    inset-inline-start: 69%;
+}
+
+.author-three.now-in-view {
+    inset-inline-start: 67%;
+    top: 66%;
+}
+
+.author-four.now-in-view {
+    top: 77%;
+    inset-inline-start: 53px;
+}
+
+.author-five.now-in-view {
+    inset-inline-start: 50px;
+    top: 41%;
+}
+
+.testi-author img {
+    text-align: end;
+    width: 150px;
+    border-radius: 50%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.ta-info {
+    overflow: hidden;
+    display: block;
+}
+
+.ta-info h6 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.ta-info span {
+    color: #fff;
+    font-size: 16px;
+}
+
+.testi-author {
+    overflow: hidden;
+}
+
+.single-testimonial p {
+    margin-bottom: 0;
+}
+
+.testimonial-active .slick-arrow {
+    position: absolute;
+    bottom: -80px;
+    inset-inline-start: 0;
+    border: none;
+    background: none;
+    padding: 0;
+    font-size: 24px;
+    color: #fff;
+    z-index: 9;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 94%;
+}
+
+.testimonial-active i {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.testimonial-active .slick-next {
+    inset-inline-start: 40px;
+}
+
+.testimonial-active .slick-arrow:hover {
+    color: var(--primary-color);
+}
+
+.testimonial-avatar.p-relative {
+    min-height: 455px;
+    display: block;
+    overflow: hidden;
+}
+
+.testimonial-avatar .ta {
+    position: absolute;
+    inset-inline-start: 50%;
+    top: 50%;
+    overflow: hidden;
+    transition: all 1200ms ease;
+    -moz-transition: all 1200ms ease;
+    -webkit-transition: all 1200ms ease;
+    -ms-transition: all 1200ms ease;
+    -o-transition: all 1200ms ease;
+}
+
+.avatar-one.now-in-view {
+    top: 0%;
+    inset-inline-start: 28%;
+}
+
+.avatar-two.now-in-view {
+    top: 50%;
+    inset-inline-start: 0;
+    transform: translateY(-50%);
+}
+
+.avatar-three.now-in-view {
+    top: 50%;
+    inset-inline-start: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.avatar-four.now-in-view {
+    top: 20%;
+    inset-inline-start: 70%;
+}
+
+.avatar-five.now-in-view {
+    top: 70%;
+    inset-inline-start: 25%;
+}
+
+.avatar-six.now-in-view {
+    top: 59%;
+    inset-inline-start: 64%;
+}
+
+.single-testimonial-bg {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 3px 4px 15px #0000001a;
+    border-radius: 10px;
+    width: 85%;
+    float: right;
+    padding: 30px 50px 100px 150px;
+    margin: 20px;
+    color: #525c7b;
+}
+
+.testimonial-active .slick-slide {
+    position: relative;
+    padding: 30px;
+    margin: 0 15px 15px;
+    background: #fff;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.08);
+}
+
+.testimonial-active .testi-img {
+    float: left;
+    margin-bottom: 20px;
+    position: absolute;
+    inset-inline-start: 0;
+    top: 80px;
+}
+
+.testimonial-active .ta-info {
+    overflow: hidden;
+    float: left;
+    padding-top: 0;
+    margin-inline-start: 15px;
+}
+
+.testimonial-active .ta-info span {
+    color: var(--primary-color);
+    font-size: 16px;
+}
+
+.testimonial-active .ta-info h6 {
+    font-size: 26px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.testimonial-active .com-icon {
+    position: absolute;
+    inset-inline-end: 50px;
+    top: 45px;
+}
+
+.testimonial-active .slick-dots {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.testimonial-active .slick-dots li {
+    display: inline-block;
+    margin: 0 0px;
+    line-height: 0;
+}
+
+.testimonial-active .slick-dots li button {
+    text-indent: -99999px;
+    border: none;
+    padding: 0;
+    margin-inline-start: 10px;
+    z-index: 1;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #ccc;
+    height: 10px;
+    width: 10px;
+    border-radius: 2px;
+}
+
+.testimonial-active .slick-dots .slick-active button {
+    width: 10px;
+    background-color: var(--primary-color);
+}
+
+.testimonial-active .qt-img {
+    position: absolute;
+    inset-inline-end: 30px;
+    top: 30px;
+}
+
+.testimonial-active .review-icon {
+    margin: 30px 0;
+}
+
+.testimonial-active2 .qt-img {
+    margin-bottom: 30px;
+}
+
+.testimonial-active2 .qt-img img {
+    display: inline-block;
+}
+
+.testimonial-active2 .slider-nav {
+    float: right;
+    width: 100%;
+}
+
+.slider-nav .slick-list.draggable {
+    width: 233px;
+    float: right;
+}
+
+.testimonial-active2 .slick-arrow {
+    position: absolute;
+    top: inherit;
+    inset-inline-start: inherit;
+    border: none;
+    background: none;
+    padding: 0;
+    font-size: 24px;
+    color: #fff;
+    z-index: 9;
+    cursor: pointer;
+    transition: 0.3s;
+    inset-inline-end: -96px;
+    bottom: 0;
+}
+
+.testimonial-active2 .slick-next {
+    inset-inline-start: inherit;
+    inset-inline-end: -165px;
+}
+
+.testimonial-active2 .slick-arrow:hover {
+    color: var(--primary-color);
+}
+
+.testimonial-avatar.p-relative {
+    min-height: 455px;
+    display: block;
+    overflow: hidden;
+}
+
+.testimonial-active2 .slick-next.slick-arrow i,
+.testimonial-active2 .slick-arrow i {
+    border-radius: 50%;
+    background-color: rgb(80, 82, 171);
+    box-shadow: 2.5px 4.33px 15px 0px rgba(80, 82, 171, 0.4);
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.testimonial-active2 .ta-info span {
+    color: var(--primary-color);
+    font-size: 16px;
+}
+
+.testimonial-active2 .testi-author {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.testimonial-active2 .ta-info h6 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+}
+
+.com-icon {
+    position: absolute;
+    inset-inline-end: 0;
+    top: 20px;
+}
+
+.testimonial-item img {
+    width: 80px;
+    cursor: pointer;
+}
+
+.testimonial-active2 .single-testimonial {
+    text-align: center;
+}
+
+.testimonial-active2 .testi-author img {
+    float: none;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+.testimonial-active2 .slick-dots li {
+    display: inline-block;
+    margin: 0 0px;
+}
+
+.testimonial-active2 .slick-dots {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.testimonial-active2 .slick-dots li button {
+    text-indent: -99999px;
+    border: none;
+    padding: 0;
+    margin-inline-start: 10px;
+    z-index: 1;
+    cursor: pointer;
+    background: no-repeat;
+    transition: 0.3s;
+    background-color: #ccc;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+}
+
+.testimonial-active2 .ta-info {
+    overflow: hidden;
+}
+
+.testimonial-active2 .single-testimonial p {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.testimonial-active2 .slick-dots .slick-active button {
+    border-radius: 5px;
+    background-color: var(--primary-color);
+}
+
+.testimonial-area .test-an-01 {
+    position: absolute;
+    bottom: 0;
+    animation: alltuchtopdown 3s infinite;
+    -webkit-animation: alltuchtopdown 3s infinite;
+    animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-delay: 1s;
+}
+
+.testimonial-area .test-an-02 {
+    position: absolute;
+    top: 0;
+    inset-inline-end: 0;
+}
+
+.test-line {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.test-line img {
+    display: inline-block;
+}

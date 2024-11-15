@@ -1,0 +1,156 @@
+/* Classes */
+.class-item {
+    float: left;
+    margin-inline-start: 15px;
+    margin-inline-end: 15px;
+    box-shadow: 1px 1.732px 18px 0px rgba(0, 0, 0, 0.05);
+    position: relative;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.class-item::after {
+    position: absolute;
+    width: 80%;
+    height: 20px;
+    background: var(--primary-color);
+    content: '';
+    bottom: -21px;
+    inset-inline-start: 10%;
+    border-radius: 0 0 4px 4px;
+    transform: translate(0, -103%);
+    z-index: -1;
+    transition: all 0.3s ease 0s;
+}
+
+.class-item:hover::after {
+    transform: translate(0, 0%);
+}
+
+.class-img-outer {
+    overflow: hidden;
+    border-radius: 4px 4px 0 0;
+}
+
+.class-content {
+    padding: 60px 40px 25px;
+    float: left;
+    position: relative;
+}
+
+.class-content h4 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.class-content .schedule span {
+    display: block;
+    line-height: 22px;
+    color: #12265a;
+}
+
+.class-content .schedule li {
+    float: left;
+    padding: 0 15px;
+    border-inline-end: 1px solid #ccc;
+}
+
+.class-content span.class-price {
+    background: var(--primary-color);
+    font-size: 20px;
+    color: #fff;
+    padding: 7px 10px;
+    border-radius: 30px;
+    width: 98px;
+    height: 34px;
+    text-align: center;
+    font-weight: 700;
+    font-family: var(--primary-font), sans-serif;
+    margin-top: 5px;
+}
+
+.class-tech {
+    display: inline-block;
+    width: 180px;
+    background: var(--primary-color);
+    color: #fff;
+    padding: 5px;
+    border-radius: 30px;
+    position: absolute;
+    inset-inline-start: 25%;
+    top: -25px;
+}
+
+.class-tech .img {
+    float: left;
+    margin-inline-end: 10px;
+}
+
+.class-tech .text {
+    padding-top: 5px;
+}
+
+.class-content .schedule span.class-size {
+    color: var(--primary-color);
+}
+
+.class-content .schedule li:first-child {
+    padding-inline-start: 0;
+}
+
+.class-content .schedule li:last-child {
+    padding-inline-end: 0;
+    border-inline-end: none;
+}
+
+.course-widget-price ul {
+    width: 100%;
+    display: inline-block;
+}
+
+.course-widget-price li i {
+    padding-inline-end: 9px;
+    font-size: 14px;
+    padding-inline-start: 2px;
+    color: var(--primary-color);
+}
+
+.course-widget-price li span:last-child {
+    float: right;
+}
+
+.class-area2 h2 {
+    color: #fff;
+}
+
+.class-active .single-project {
+    position: relative;
+}
+
+.class-active .slick-arrow {
+    position: absolute;
+    top: 30%;
+    inset-inline-start: -60px;
+    border: none;
+    background: none;
+    padding: 0;
+    font-size: 36px;
+    color: #fff;
+    z-index: 9;
+    cursor: pointer;
+    transition: 0.3s;
+    background: var(--primary-color);
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+}
+
+.class-active .slick-arrow:hover {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.class-active .slick-next {
+    inset-inline-start: inherit;
+    inset-inline-end: -60px;
+}

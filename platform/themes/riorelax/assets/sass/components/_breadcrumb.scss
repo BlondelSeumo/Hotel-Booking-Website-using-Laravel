@@ -1,0 +1,106 @@
+/* breadcrumb */
+
+.breadcrumb-area {
+    background-size: cover;
+    position: relative;
+    min-height: 450px;
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+
+.breadcrumb {
+    display: inline-block;
+    -ms-flex-wrap: wrap;
+    flex-wrap: unset;
+    padding: 0;
+    margin-bottom: 0;
+    list-style: none;
+    background-color: unset;
+    border-radius: 0;
+}
+
+.breadcrumb li {
+    display: inline-block;
+}
+
+.breadcrumb li a {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    display: inline-block;
+    padding-inline-end: 15px;
+    padding-inline-start: 10px;
+    color: #ddd;
+    content: '|';
+}
+
+.breadcrumb-title h2 {
+    font-size: 60px;
+    margin-bottom: 25px;
+    line-height: 1;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 60px;
+}
+
+.breadcrumb-title p {
+    margin-bottom: 0;
+    color: #777;
+    font-size: 16px;
+}
+
+.breadcrumb > .active {
+    color: #fffc !important;
+    font-weight: 500;
+}
+
+.cart-top {
+    display: inline-block;
+}
+
+.cart-top li {
+    display: inline-block;
+    padding: 0px 17px;
+}
+
+.cart-top li a {
+    color: #fff;
+    font-size: 18px;
+    float: none !important;
+}
+
+.cart-top li:last-child {
+    border: none;
+}
+
+.call-box .icon {
+    display: inline-block;
+}
+
+.call-box li {
+    float: left;
+    color: #fff;
+}
+
+.call-box .text {
+    margin-inline-start: 10px;
+}
+
+.call-box span {
+    display: block;
+    color: #ffffffab;
+    padding: 3px;
+}
+
+.call-box strong {
+    font-size: 22px;
+}
+
+.header-social a {
+    color: #fff;
+    margin-inline-start: 15px;
+    font-size: 18px;
+}

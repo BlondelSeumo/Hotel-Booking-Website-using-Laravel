@@ -1,0 +1,53 @@
+/* steps area */
+.steps-area h2,
+.steps-area h3 {
+    color: #fff;
+}
+
+.steps-area li {
+    margin-bottom: 30px;
+}
+
+.steps-area li:last-child {
+    margin-bottom: 0;
+}
+
+.step-box {
+    display: flex;
+}
+
+.step-box .text p {
+    margin-bottom: 0;
+    color: #9f9f9f;
+}
+
+.step-box .date-box {
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    margin-inline-end: 30px;
+    text-align: center;
+    position: relative;
+    float: left;
+    color: #fff;
+    font-family: var(--primary-font), sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.step-box .date-box::before {
+    content: '';
+    width: 50px;
+    height: 50px;
+    inset-inline-start: 5px;
+    border: 2px dashed #fff;
+    position: absolute;
+    top: 5px;
+    border-radius: 50%;
+}
+
+.step-img {
+    margin-inline-start: -305px;
+}

@@ -1,0 +1,83 @@
+.main-menu ul li.has-sub .current a {
+    color: #222;
+}
+
+.main-menu ul li.current a {
+    color: var(--primary-color);
+}
+
+.main-menu .has-sub > ul {
+    visibility: hidden;
+    position: absolute;
+    background-color: #ffff;
+    min-width: 250px;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+    margin-top: 15px;
+    border-top: 4px solid var(--primary-color);
+    box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+    -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+    opacity: 0;
+}
+
+.main-menu .has-sub li a {
+    padding: 15px;
+}
+
+.main-menu .has-sub li {
+    margin-inline-start: 0 !important;
+    float: left;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    text-align: start;
+}
+
+.main-menu a[target="_self"]:hover {
+    color: #aa7769;
+}
+
+.main-menu .has-sub:hover > ul {
+    visibility: visible;
+    margin-top: 0px;
+    opacity: 1;
+}
+
+.main-menu .has-sub > ul > .has-sub > ul {
+    display: none;
+    position: absolute;
+    background-color: #ffff;
+    width: 250px;
+    z-index: 1;
+    padding: 0;
+    margin-inline-start: -255px;
+    margin-top: 0;
+    top: -3px;
+}
+
+.main-menu .has-sub > ul > .has-sub:hover > ul {
+    display: block;
+}
+
+.main-menu .has-sub > ul > .has-sub > ul > .has-sub > ul {
+    display: none;
+    position: absolute;
+    background-color: #ffff;
+    width: 250px;
+    z-index: 1;
+    padding: 0;
+    margin-inline-start: 255px;
+    margin-top: 0;
+    top: -3px;
+}
+
+.main-menu .has-sub > ul > .has-sub > ul > .has-sub:hover > ul {
+    display: block;
+}
+
+.main-menu .has-sub ul li a {
+    color: #4f4f4f;
+}
+
+.main-menu .has-sub ul li a:hover {
+    color: var(--primary-color);
+}

@@ -1,0 +1,121 @@
+/* 5. features */
+.features-services-area .container {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1.732px 60px 0px rgba(0, 0, 0, 0.1);
+    padding: 50px 50px 20px;
+    margin-top: -180px;
+}
+
+.features-services-area .features-icon img {
+    height: 57px;
+    margin-bottom: 30px;
+}
+
+.features-services-area p {
+    margin-bottom: 0;
+}
+
+.features-content h4 {
+    font-size: 24px;
+    margin-bottom: 17px;
+}
+
+.s-btn {
+    font-size: 14px;
+    font-weight: 500;
+    color: #101010;
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 9px 30px;
+    border-radius: 50px;
+}
+
+.s-btn:hover {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+    color: #fff;
+}
+
+.section-title h5 {
+    color: var(--primary-color);
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.section-title h5 div {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.section-title h2 {
+    font-size: 60px;
+    padding-bottom: 0;
+    margin-bottom: 0px !important;
+    position: relative;
+}
+
+.section-title h2::before {
+    content: '';
+    position: absolute;
+    inset-inline-start: 0;
+    inset-inline-end: 0;
+    bottom: 0;
+    height: 4px;
+    width: 60px;
+    background: var(--primary-color);
+    margin: auto;
+    transition: 0.3s;
+    display: none;
+}
+
+.section-title p {
+    margin-top: 10px;
+    width: 60%;
+    display: inline-block;
+}
+
+section:hover .section-title h2::before {
+    width: 100px;
+}
+
+.features-p {
+    padding-top: 380px;
+}
+
+.features-shape {
+    position: absolute;
+    z-index: -1;
+}
+
+.fshape-one {
+    inset-inline-start: 120px;
+    top: 25%;
+}
+
+.fshape-two {
+    inset-inline-start: 15%;
+    top: 51%;
+}
+
+.fshape-three {
+    top: 69%;
+    inset-inline-start: 6%;
+}
+
+.fshape-four {
+    top: 40%;
+    inset-inline-start: 89%;
+}
+
+.fshape-five {
+    top: 71%;
+    inset-inline-start: 83%;
+}
+
+.about-content3 li::before {
+    font-family: 'Font Awesome 5 Pro';
+    content: '';
+    margin-inline-end: 10px;
+    color: var(--primary-color);
+}

@@ -1,0 +1,233 @@
+.portfolio .col2 .grid-item {
+    width: 49%;
+    padding: 15px;
+}
+
+.portfolio .col3 .grid-item {
+    width: 33.33%;
+    margin: 0;
+    padding: 15px;
+}
+
+.portfolio .col3 .grid-item .box {
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio .col3 .grid-item .box a::after {
+    content: '';
+    position: absolute;
+    inset-inline-start: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #b68c5a;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.portfolio .col3 .grid-item .box a::before {
+    content: '\f067';
+    font-family: 'Font Awesome 5 Pro' !important;
+    position: absolute;
+    top: 40%;
+    inset-inline-start: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #fff;
+    transition: 0.3s;
+    opacity: 0;
+    z-index: 9;
+}
+
+.portfolio .col3 .grid-item .box a:hover::before {
+    top: 50%;
+    opacity: 1;
+}
+
+.portfolio .col3 .grid-item .box a:hover::after {
+    opacity: 0.6;
+}
+
+.portfolio .col3 .grid-item .box20 img {
+    width: auto;
+    height: 380px;
+    border-radius: 0px;
+    max-width: inherit;
+    margin-inline-start: -150px;
+}
+
+.portfolio .col4 .grid-item {
+    width: 25%;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-image {
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+}
+
+.gallery-image figcaption {
+    width: 100%;
+    padding: 0 35px 30px 60px;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    bottom: -150px;
+    z-index: 2;
+    text-align: start;
+}
+
+.gallery-image::before {
+    content: '\f067';
+    font-family: 'Font Awesome 5 Pro' !important;
+    position: absolute;
+    top: 40%;
+    inset-inline-start: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #fff;
+    transition: 0.3s;
+    opacity: 0;
+    z-index: 1;
+    background: var(--primary-color);
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.gallery-image:hover::before {
+    top: 50%;
+    opacity: 1;
+}
+
+.gallery-image::after {
+    content: '';
+    position: absolute;
+    inset-inline-start: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: var(--primary-color);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.gallery-image:hover::after {
+    opacity: 0.85;
+}
+
+.masonry-gallery-huge {
+    margin: auto;
+    padding-inline-end: 1.85%;
+    padding-inline-start: 1.85%;
+}
+
+.profile .masonry-gallery-huge {
+    margin: 0 -22px;
+    padding-inline-end: 0;
+    padding-inline-start: 0;
+}
+
+.profile .grid-item {
+    margin: 0;
+}
+
+.grid-item {
+    margin: 15px;
+}
+
+.gallery-image:hover figcaption {
+    opacity: 1;
+    bottom: 30px;
+}
+
+.gallery-image figcaption h4 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+}
+
+.gallery-image figcaption .span {
+    color: #b68c5a;
+    font-size: 14px;
+    position: relative;
+    padding-inline-start: 40px;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.gallery-image figcaption .span::before {
+    content: '';
+    width: 30px;
+    position: absolute;
+    height: 2px;
+    background: #b68c5a;
+    top: 50%;
+    inset-inline-start: 0;
+}
+
+.gallery-image figcaption .span p {
+    margin-bottom: 0;
+}
+
+.gallery-image figcaption .icon {
+    position: absolute;
+    inset-inline-end: 0;
+    background: #3763eb;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    top: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+}
+
+.button-group {
+    padding-bottom: 15px;
+}
+
+.button-group button {
+    border: none;
+    background: none;
+    transition: 0.3s;
+    cursor: pointer;
+    outline: none;
+    color: #777;
+    position: relative;
+    padding-top: 0;
+    margin-inline-start: 15px;
+}
+
+.button-group button:hover {
+    color: #030c26;
+}
+
+.button-group button.active {
+    color: #030c26;
+    border-bottom: 1px solid var(--primary-color);
+    font-weight: 500;
+}
+
+.button-group button::before {
+    content: '/';
+    position: relative;
+    inset-inline-start: -12px;
+}
+
+.button-group button:first-child::before {
+    display: none;
+}
+
+.gallery-image img {
+    width: 100%;
+    margin-bottom: 0;
+}

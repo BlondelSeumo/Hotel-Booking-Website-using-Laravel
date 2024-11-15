@@ -1,0 +1,17 @@
+#scrollUp {
+    background: var(--primary-color);
+    height: 45px;
+    width: 45px;
+    inset-inline-end: 50px;
+    bottom: 77px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 22px;
+    line-height: 45px;
+    transition: 0.3s;
+}
+
+#scrollUp:hover {
+    background: var(--primary-color);
+}

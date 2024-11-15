@@ -1,0 +1,57 @@
+/* booking */
+.booking {
+    z-index: 1;
+    position: relative;
+}
+
+.bom {
+    margin-top: 0;
+}
+
+.booking .contact-bg02 {
+    background: none;
+    padding: 0 0 0 30px;
+    text-align: start;
+}
+
+.booking-img img {
+    width: 100%;
+    inset-inline-end: -15px;
+    position: relative;
+}
+
+.booking .contact-field select {
+    padding: 15px 15px;
+}
+
+.booking .contact-field input,
+.booking .contact-field select {
+    width: 100%;
+    border: none;
+    background: #fff;
+    padding: 10px 20px;
+    transition: 0.3s;
+    border: 1px solid var(--input-border-color);
+}
+
+.booking .contact-field select,
+.booking .contact-field input[type='date'] {
+    color: #000;
+}
+
+.booking input::placeholder,
+.booking input[type='date']::placeholder,
+.booking select::placeholder {
+    color: #000;
+}
+
+.booking-img2 {
+    position: absolute;
+    bottom: -70px;
+    inset-inline-start: -90px;
+}
+
+.booking .contact-bg02 label i {
+    margin-inline-end: 5px;
+    color: #101010;
+}

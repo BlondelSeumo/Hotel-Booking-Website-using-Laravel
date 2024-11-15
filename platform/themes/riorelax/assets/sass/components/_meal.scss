@@ -1,0 +1,65 @@
+/* meal */
+.populer-meal ul {
+}
+
+.populer-meal li {
+    display: inline-block;
+    width: 33.14%;
+    margin-bottom: 30px;
+}
+
+.meal-container {
+    display: flex;
+}
+
+.meal-price strong {
+    width: 100%;
+    float: right;
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 25px;
+    font-weight: 600;
+    font-family: var(--primary-font), sans-serif;
+}
+
+.meal-container div {
+    padding: 10px;
+}
+
+.meal-container a:hover {
+    color: #ffce1c;
+}
+
+.meal-container .line {
+    width: 12%;
+    padding: 0 !important;
+}
+
+.meal-container .line hr {
+    color: #fff;
+    border: none;
+    border-top-color: currentcolor;
+    border-top-style: none;
+    border-top-width: medium;
+    border-top: 2px dashed;
+}
+
+.meal-price span {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: line-through;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.meal-content,
+.meal-container .line,
+.meal-price {
+    margin-top: 15px;
+}
+
+.meal-content h5 {
+    font-size: 24px;
+}

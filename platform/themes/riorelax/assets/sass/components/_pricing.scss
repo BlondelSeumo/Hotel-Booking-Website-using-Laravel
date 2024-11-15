@@ -1,0 +1,234 @@
+/* 18. pricing */
+.pricing-area .nav {
+    box-shadow: 0px 16px 32px #00000014;
+    margin-top: 50px;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.pricing-area .nav-pills .nav-link {
+    padding: 15px 30px;
+}
+
+.pricing-area .nav-pills .nav-link.active {
+    background: #4cc3c1;
+    padding: 15px 40px;
+    border-radius: 30px;
+}
+
+.pricing-area .nav-pills .nav-link span {
+    background: #ffebe4;
+    padding: 5px 9px;
+    font-size: 12px;
+    border-radius: 15px;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.pricing-box {
+    float: left;
+    width: 100%;
+    position: relative;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.08);
+    padding: 50px;
+}
+
+.pricing-head {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.pricing-head .month {
+    position: absolute;
+    inset-inline-end: -26px;
+    top: 26px;
+    border-radius: 4px;
+    background-color: rgb(225, 225, 225);
+    padding: 3px 10px;
+    transform: rotate(90deg);
+}
+
+.pricing-head h3 {
+    font-size: 26px;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.price-count sub {
+    font-size: 14px;
+    bottom: 5px;
+}
+
+.pricing-head .glyph-icon::before {
+    font-size: 32px;
+    margin-inline-start: 0;
+    width: 85px;
+    background: #3763eb;
+    height: 85px;
+    display: inline-block;
+    line-height: 65px;
+    border-radius: 50%;
+    color: #fff;
+    margin-bottom: 30px;
+    border: 10px solid #eee;
+}
+
+.pricing-head h4 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #101010;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.price-count h2 {
+    font-size: 50px;
+    font-weight: 700 !important;
+    margin-bottom: 0 !important;
+    color: var(--primary-color);
+}
+
+.price-count h2 strong {
+    font-size: 15px;
+    margin-inline-start: -12px;
+    color: #777;
+    font-weight: 700;
+}
+
+.price-count small {
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    top: -20px;
+    margin-inline-end: 3px;
+}
+
+.price-count span {
+    color: #101010;
+    font-size: 15px;
+    margin-inline-start: -10px;
+}
+
+.pricing-body {
+    padding: 0px;
+    width: 100%;
+}
+
+.pricing-body li {
+    margin-top: 15px;
+    list-style: none !important;
+}
+
+.pricing-body li:first-child {
+    margin-top: 0;
+}
+
+.pricing-body li::before {
+    content: '';
+    font-family: 'Font Awesome 5 Pro';
+    color: var(--primary-color);
+    width: 25px;
+    height: 25px;
+    position: relative;
+    float: left;
+    text-align: center;
+    border: 2px solid;
+    font-size: 12px;
+    line-height: 22px;
+    margin-top: 2px;
+    border-radius: 50%;
+    margin-inline-end: 15px;
+}
+
+.pricing-body p {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.pricing-box.active {
+    border-color: var(--primary-color);
+    background: var(--primary-color);
+}
+
+.pricing-box.active .pricing-head .glyph-icon::before {
+    background: #fff;
+    color: #3763eb;
+}
+
+.pricing-box.active .pricing-head h4 {
+    color: #fff;
+}
+
+.pricing-body {
+    float: left;
+}
+
+.pricing-head h5 {
+    font-size: 30px;
+    margin-bottom: 15px !important;
+}
+
+.pricing-box2 .icon {
+    margin-bottom: 15px;
+}
+
+.pricing-box2 .icon img {
+    height: 40px;
+}
+
+.pricing-box2 hr {
+    background: #d7d7d7;
+    margin: auto;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    border: none;
+}
+
+.pricing-box2.active {
+    background: var(--primary-color);
+}
+
+.pricing-box2.active .price-count h2,
+.pricing-box2.active .pricing-body li,
+.pricing-box2.active .pricing-body li::before,
+.pricing-box2.active .pricing-head h3,
+.pricing-box2.active .pricing-head p {
+    color: #fff;
+}
+
+.pricing-box2.active .pricing-head .month {
+    background-color: rgba(225, 225, 225, 0.18);
+    color: #fff;
+}
+
+.pricing-box.active .pricing-btn .btn {
+    background: #fff;
+    color: var(--primary-color);
+}
+
+.pricing-box2 .pricing-head p {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.pricing-box2 .price-count {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.pricing-box2 .price-count h2 {
+    font-size: 50px;
+}
+
+.pricing-btn .btn {
+    width: 100%;
+}
+
+.pricing-btn .btn::before {
+    display: none;
+}

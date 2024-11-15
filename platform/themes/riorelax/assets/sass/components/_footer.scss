@@ -1,0 +1,298 @@
+/* 20. footer */
+.recent-blog-footer li {
+    display: flex;
+    margin-bottom: 25px !important;
+}
+
+.recent-blog-footer li .thum {
+    float: left;
+    width: 155px;
+    margin-inline-end: 10px;
+}
+
+.recent-blog-footer li .thum img {
+    border-radius: 10px;
+}
+
+.recent-blog-footer a {
+    width: 100%;
+    display: inline-block;
+    color: #fffc !important;
+}
+
+.recent-blog-footer a:hover {
+    color: #fff !important;
+}
+
+.recent-blog-footer span {
+    color: var(--primary-color);
+}
+
+.footer-top-heiding {
+    margin-bottom: 50px;
+}
+
+.footer-top-heiding .container {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ffffff2e;
+}
+
+.f-contact {
+    display: flex;
+}
+
+.f-contact i {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    line-height: 40px;
+    color: #412720 !important;
+    text-align: center;
+    border-radius: 50%;
+    float: left;
+}
+
+.f-contact a {
+    color: #fffc !important;
+}
+
+.f-contact a:hover {
+    color: #fffc !important;
+}
+
+.footer-top-heiding .col-lg-4 {
+    border-inline-end: 2px solid #20282e;
+}
+
+.footer-top-heiding .col-lg-4:last-child {
+    border-inline-end: none;
+}
+
+.f-contact span {
+    color: #fffc;
+}
+
+.f-contact h3 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.footer-top-heiding h2 {
+    color: #fff;
+}
+
+.footer-bg {
+    color: #777;
+    background-position: -180px center !important;
+    background-size: cover;
+}
+
+.f-cta-area.gray-bg {
+    background: #f4f4fe;
+    border-top: 3px solid var(--primary-color);
+}
+
+.footer-text p {
+    color: #ddd;
+    margin-bottom: 0;
+}
+
+.footer-social span {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    margin-inline-end: 20px;
+}
+
+.footer-social a {
+    font-size: 16px;
+    display: inline-block;
+    margin-inline-end: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #101010;
+    text-align: center;
+    line-height: 40px;
+    color: #fff !important;
+}
+
+.footer-social a:hover {
+    background: #101010;
+    color: var(--secondary-color) !important;
+}
+
+.f-widget-title h2,
+.footer-widget .widgettitle {
+    font-size: 24px;
+    margin-bottom: 5px;
+    position: relative;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+.f-widget-title h2::before,
+.footer-widget .widgettitle::before {
+    content: '';
+    position: absolute;
+    inset-inline-start: 0;
+    bottom: 0;
+    height: 1px;
+    width: 70px;
+}
+
+.f-widget-title img {
+    width: 146px;
+}
+
+.footer-link ul li i {
+    color: var(--primary-color);
+    margin-inline-end: 5px;
+}
+
+.footer-link ul li a {
+    color: #fffc;
+    display: inline-block;
+}
+
+.footer-link ul li a::before {
+    content: '+';
+    margin-inline-end: 8px;
+    color: var(--primary-color);
+    font-size: 18px;
+    display: none;
+}
+
+.footer-link ul li a:hover {
+    color: #fff;
+}
+
+.footer-link ul li {
+    margin-bottom: 10px;
+}
+
+.footer-link ul li:last-child {
+    margin-bottom: 0;
+}
+
+.f-insta ul li {
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-inline-end: 9px;
+    width: 31.2% !important;
+}
+
+.f-insta ul li img {
+    width: 100%;
+}
+
+.f-insta ul li:nth-child(3),
+.f-insta ul li:nth-child(6) {
+    margin-inline-end: 0 !important;
+}
+
+.f-insta ul li a {
+    display: block;
+    position: relative;
+}
+
+.f-insta ul li a::before {
+    content: '\f067';
+    font-family: 'Font Awesome 5 Pro';
+    position: absolute;
+    top: 40%;
+    inset-inline-start: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #fff;
+    transition: 0.3s;
+    opacity: 0;
+    z-index: 9;
+}
+
+.f-insta ul li a::after {
+    content: '';
+    position: absolute;
+    inset-inline-start: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: var(--primary-color);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.f-insta ul li:hover a::before {
+    top: 50%;
+    opacity: 1;
+}
+
+.f-insta ul li:hover a::after {
+    opacity: 0.6;
+}
+
+.copyright-wrap {
+    background: #282828;
+    color: #fff;
+    font-size: 15px;
+}
+
+.copyright-wrap .container {
+    padding: 20px 0;
+}
+
+.copyright-wrap li {
+    display: inline;
+    padding-inline-start: 15px;
+    margin-inline-start: 40px;
+    position: relative;
+}
+
+.copyright-wrap li::before {
+    background-color: #101010;
+    width: 8px;
+    height: 8px;
+    content: '';
+    position: absolute;
+    inset-inline-start: -4px;
+    top: 5px;
+    border-radius: 50px;
+}
+
+.copyright-wrap li a {
+    color: #fff;
+}
+
+.f-contact .icon {
+    float: left;
+    margin-top: 7px;
+    margin-inline-end: 15px;
+    width: 40px;
+}
+
+.f-contact li {
+    float: left;
+    margin-bottom: 15px !important;
+    width: 100%;
+}
+
+.f-contact li:last-child {
+    margin-bottom: 0px !important;
+}
+
+#contact-form4 {
+    margin-top: 20px;
+}
+
+#contact-form4 input {
+    padding: 23px 30px;
+    border: none;
+    width: 75%;
+}
+
+#contact-form4 button {
+    padding: 15px 30px;
+    border-radius: 0;
+}

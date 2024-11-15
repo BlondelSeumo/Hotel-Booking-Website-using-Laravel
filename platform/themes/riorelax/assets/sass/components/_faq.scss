@@ -1,0 +1,92 @@
+/* faq */
+.faq-area .section-title h2 {
+    color: #fff;
+}
+
+.faq-img {
+    margin-inline-end: -350px;
+}
+
+.faq-btn {
+    font-size: 17px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px 30px;
+    width: 100%;
+    text-align: start;
+    padding-inline-end: 75px;
+    background: #f8f8f8;
+    border-radius: 0;
+}
+
+.card .collapse.show {
+    display: block;
+}
+
+.faq-btn.collapsed {
+    background: no-repeat;
+    color: #190a32;
+}
+
+.faq-wrap .card-header:first-child {
+    border-radius: 0;
+}
+
+.faq-wrap .card-header {
+    padding: 0;
+    margin-bottom: 0;
+    background-color: unset;
+    border-bottom: none;
+}
+
+.faq-wrap .card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: unset;
+    padding: 25px 30px;
+}
+
+.faq-wrap .card-header h2 {
+    font-size: unset;
+}
+
+.faq-wrap .card {
+    border: none;
+    border-radius: 4px !important;
+    margin-bottom: 15px;
+    box-shadow: 2.5px 4.33px 15px 0px rgba(0, 0, 0, 0.09);
+    overflow: hidden;
+}
+
+.faq-wrap .card:last-child {
+}
+
+.faq-wrap .card-header h2 button::after {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    content: '\f107';
+    top: 0;
+    inset-inline-end: 0;
+    font-size: 26px;
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 600;
+    background: var(--primary-color);
+    width: 61px;
+    height: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    transform: rotateY(180deg);
+}
+
+.faq-wrap .card-header h2 button.collapsed::after {
+    content: '\f104';
+    color: #fff;
+    box-shadow: none;
+    font-size: 26px;
+}

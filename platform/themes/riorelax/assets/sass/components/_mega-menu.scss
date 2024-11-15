@@ -1,0 +1,147 @@
+/* 23. mega menu */
+
+.offcanvas-menu .has-mega-menu ul {
+    display: none;
+}
+
+.offcanvas-menu li.has-sub.has-mega-menu:hover > ul {
+    margin-inline-start: -1160px;
+    background: #00081b;
+    top: 121px;
+}
+
+.offcanvas-menu .mega-menu-column.has-sub ul li a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.offcanvas-menu .mega-menu-column.has-sub ul li a:hover {
+    color: var(--primary-color);
+}
+
+.has-mega-menu {
+    position: static;
+}
+
+li.has-sub.has-mega-menu ul {
+    position: absolute;
+    top: NNpx; /*insert the needed value*/
+    z-index: 100;
+    left: 0px;
+    inset-inline-end: 0px;
+    width: 1180px;
+}
+
+.main-menu .mega-menu-column.has-sub a {
+    color: #333;
+}
+
+.main-menu .mega-menu-column.has-sub a:hover {
+    color: var(--primary-color);
+}
+
+li.has-sub.has-mega-menu:hover > ul {
+    /*flexbox fallback for browsers that do not support CSS GRID lyout*/
+    display: flex;
+    flex-wrap: wrap;
+    /*CSS GRID lyout*/
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+    margin-inline-start: -820px;
+}
+
+li.has-sub.has-mega-menu:hover > ul > li > ul {
+    /*flexbox fallback for browsers that do not support CSS GRID lyout*/
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    background: none;
+    /*CSS GRID lyout*/
+    display: grid;
+    position: relative;
+    border: none;
+    margin-inline-start: 0;
+}
+
+@media screen and (min-width: 992px) {
+    li.has-mega-menu:hover > ul {
+        grid-template-columns: repeat(auto-fit, minmax(33.3333%, 1fr));
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    li.has-mega-menu:hover > ul {
+        grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+    }
+}
+
+@media screen and (min-width: 600px) {
+    li.mega-menu-column {
+        width: 100%;
+        max-width: 100%;
+        min-height: 1px;
+        padding: 10px 25px;
+        flex: 1 0 calc(50%);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    li.mega-menu-column {
+        flex: 1 0 calc(33.333%);
+    }
+}
+
+.main-menu .has-sub .mega-menu-column li {
+    flex: 1 0 calc(25%);
+    border: none;
+}
+
+.menu .children {
+    display: none;
+    position: absolute;
+    background-color: #ffff;
+    min-width: 250px;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+    margin-top: 15px;
+    border-top: 4px solid var(--primary-color);
+    box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+    -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+}
+
+.menu .sub-menu li,
+.menu .children li {
+    margin-inline-start: 0 !important;
+    float: left;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    text-align: start;
+}
+
+.main-menu .sub-menu li a,
+.menu .children li a {
+    padding: 15px;
+    color: #000;
+}
+
+.menu .menu-item-has-children:hover > ul,
+.menu .page_item_has_children:hover > ul {
+    display: block;
+    margin-top: 0px;
+}
+
+.main-menu ul li.page_item {
+    margin-inline-start: 15px;
+}
+
+.main-menu ul li.page_item::after {
+    display: none;
+}
+
+.main-menu ul li.page_item.current_page_item {
+    margin-inline-start: 50px;
+}
+
+.main-menu ul li.page_item.current_page_item::after {
+    display: block;
+}

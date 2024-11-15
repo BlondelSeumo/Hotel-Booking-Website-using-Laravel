@@ -1,0 +1,99 @@
+.f-cta-area {
+    background: #fff;
+    margin-inline-start: 260px;
+    margin-inline-end: 260px;
+    position: relative;
+    top: -70px;
+    margin-bottom: 30px;
+    box-shadow: 0 -3px 65px 0 rgba(0, 0, 0, 0.09);
+}
+
+.f-cta-icon {
+    margin-inline-end: 30px;
+}
+
+.single-cta {
+    line-height: 28px;
+}
+
+.single-cta a {
+    color: #101010;
+}
+
+.f-cta-icon i {
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    line-height: 78px;
+    background: var(--primary-color);
+    border-radius: 50%;
+    color: #fff;
+    font-size: 28px;
+}
+
+.contact-info .single-cta {
+    float: left;
+}
+
+.contact-info p {
+}
+
+.contact-info h5 {
+    color: #101010;
+}
+
+.single-cta {
+    border-bottom: 1px solid #ccc;
+    float: left;
+    width: 100%;
+}
+
+div.single-cta:last-child {
+    border: 0;
+}
+
+.single-cta h5 {
+    font-size: 20px;
+    margin-bottom: 15px !important;
+}
+
+.single-cta p {
+    margin-bottom: 0;
+}
+
+.single-cta p a {
+    color: #777;
+}
+
+.s-cta-btn .btn {
+    color: #fff;
+    margin-top: 10px;
+    border: none;
+}
+
+.widget.widget_media_image {
+    margin: 25px 0 0;
+}
+
+.award-box .date {
+    font-weight: 700;
+    font-size: 24px;
+    color: #101010;
+    font-family: var(--primary-font), sans-serif;
+}
+
+.aw-line {
+    position: relative;
+}
+
+.aw-line::before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    inset-inline-start: 9%;
+    border-bottom: 1px dashed;
+    top: 32%;
+    width: 81%;
+    margin: auto;
+}

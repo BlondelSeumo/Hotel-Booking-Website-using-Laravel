@@ -1,0 +1,133 @@
+/* 8. newslater-area */
+
+.newslater .input-bg {
+    background: #3a3d3e;
+    border-radius: 30px !important;
+    float: left;
+    padding-inline-end: 5px;
+    position: relative;
+    z-index: 3;
+    width: 40%;
+}
+
+.newslater .input-bg2 {
+    background: #3a3d3e;
+    border-radius: 30px !important;
+    float: left;
+    padding-inline-end: 5px;
+    position: relative;
+    z-index: 2;
+    margin-inline-start: -35px;
+    width: 40%;
+}
+
+.newslater input {
+    background: #fff !important;
+    border: 1px solid #fff !important;
+    box-shadow: none !important;
+    padding: 9px 20px !important;
+    color: #030c26 !important;
+    height: calc(1.5em + 0.75rem + 20px);
+    width: 100% !important;
+    position: relative;
+    z-index: 1;
+    margin-inline-end: 7px;
+    border-radius: 10px;
+}
+
+.newslater .form-group {
+    margin-bottom: 0;
+}
+
+.newslater button:hover {
+    background: #ff3494;
+    color: #fff;
+}
+
+.newslater *::-moz-placeholder {
+    color: #939393;
+    font-size: 14px;
+    opacity: 0.8;
+    opacity: 1;
+}
+
+.newslater *::placeholder {
+    color: #939393;
+    opacity: 0.8;
+    font-size: 14px;
+    opacity: 1;
+}
+
+.newslater-area #contact-form4 {
+    width: 70%;
+    display: inline-block;
+    position: relative;
+    margin: auto;
+}
+
+.newslater-area #contact-form4 button {
+    background: var(--primary-color);
+    color: #fff;
+    height: 56px;
+    z-index: 1;
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    inset-inline-end: 0;
+    top: 0;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 0;
+}
+
+.slick-slide {
+    outline: none;
+}
+
+.features-area h5 {
+    margin-bottom: 15px;
+}
+
+.features-area ul {
+    margin-top: 30px;
+    color: #fff;
+    display: inherit;
+}
+
+.features-area li {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.features-area li .icon {
+    margin-inline-end: 20px;
+    color: #84daa9;
+}
+
+.features-area .nav-pills .nav-link {
+    width: 100%;
+    font-size: 24px;
+    font-family: var(--primary-font), sans-serif;
+    font-weight: 600;
+}
+
+.features-area .nav-pills .nav-link img {
+    margin-inline-end: 15px;
+}
+
+.features-area .nav-pills .nav-link.active,
+.features-area .nav-pills .show > .nav-link {
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 1px 1.732px 60px 0px rgba(0, 0, 0, 0.1);
+    color: #101010;
+}
+
+.feature-text h3 {
+    font-size: 48px;
+}
+
+.fe-img {
+    margin: 0 -40px;
+}

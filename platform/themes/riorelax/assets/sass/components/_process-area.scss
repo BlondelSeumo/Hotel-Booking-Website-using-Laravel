@@ -1,0 +1,59 @@
+/* 24. process-area */
+.process-area h2 {
+    color: #fff;
+}
+
+.process-area .section-title h5 {
+    color: var(--primary-color);
+}
+
+.process-area .col-lg-3.col-md-12:nth-child(2),
+.process-area .col-lg-3.col-md-12:nth-child(4) {
+    margin-top: 50px;
+}
+
+.process-area .col-lg-3.col-md-12:nth-child(2) .process-icon,
+.process-area .col-lg-3.col-md-12:nth-child(2) .no {
+    background: var(--primary-color) 0% 0% no-repeat padding-box;
+}
+
+.process-area .col-lg-3.col-md-12:nth-child(3) .process-icon,
+.process-area .col-lg-3.col-md-12:nth-child(3) .no {
+    background: #27ae61 0% 0% no-repeat padding-box;
+}
+
+.process-area .col-lg-3.col-md-12:nth-child(4) .process-icon,
+.process-area .col-lg-3.col-md-12:nth-child(4) .no {
+    background: #8145da 0% 0% no-repeat padding-box;
+}
+
+.process-area h5 {
+    color: #fff;
+}
+
+.process-icon {
+    width: 180px;
+    height: 180px;
+    line-height: 180px;
+    background: #4cc3c1 0% 0% no-repeat padding-box;
+    text-align: center;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+.process-area .no {
+    position: absolute;
+    top: 0;
+    line-height: 40px;
+    inset-inline-end: 0;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background: #4cc3c1 0% 0% no-repeat padding-box;
+    border: 4px solid #101010;
+    border-radius: 50%;
+    color: #ffffff;
+    font-weight: 600;
+}

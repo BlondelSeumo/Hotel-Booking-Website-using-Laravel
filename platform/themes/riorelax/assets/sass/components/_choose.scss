@@ -1,0 +1,91 @@
+/* 8. choose */
+.chosse-img {
+    background-size: cover;
+    height: 100%;
+    inset-inline-end: 0;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.choose-list {
+    float: left;
+    width: 100%;
+}
+
+.choose-list ul li {
+    margin-bottom: 20px;
+    color: #444d69;
+    width: 50%;
+    float: left;
+}
+
+.choose-list ul li i {
+    color: var(--primary-color);
+    display: inline-block;
+    margin-inline-end: 5px;
+    font-size: 18px;
+}
+
+.choose-area {
+    background-size: cover;
+    background-position: center;
+}
+
+.choose-content p {
+    margin-bottom: 15px;
+    color: #444d69;
+    padding-inline-end: 50px;
+}
+
+.choose-btn a {
+    border-radius: 8px;
+    background-color: rgb(31, 83, 219);
+    box-shadow: 0px 2px 60px 0px rgba(31, 83, 219, 0.3);
+    width: 241px;
+    display: inline-block;
+    color: #fff !important;
+    display: flex;
+    padding: 10px 25px;
+    float: left;
+    margin-inline-end: 25px;
+    position: relative;
+    border: 2px solid #1f53db;
+    font-family: var(--primary-font), sans-serif;
+}
+
+.choose-btn a .icon {
+    padding: 0 20px 0 0;
+    line-height: 50px;
+    z-index: 99;
+}
+
+.choose-btn a .text {
+    z-index: 99;
+    font-size: 20px;
+}
+
+.choose-btn a .text strong {
+    font-size: 22px;
+    margin-top: 0px;
+    display: block;
+    font-weight: 500;
+}
+
+.choose-btn a.g-btn {
+    box-shadow: none;
+    width: 262px;
+    background: none;
+    border: 2px solid #1f53db;
+    margin-inline-end: 0;
+}
+
+.g-btn .text {
+    color: #101010;
+}
+
+.g-btn .text strong {
+    color: #1f53db;
+}
